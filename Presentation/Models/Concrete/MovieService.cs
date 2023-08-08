@@ -31,7 +31,7 @@ namespace Presentation.Models.Concrete
                     RequestUri = new Uri("https://imdb-top-100-movies.p.rapidapi.com/"),
                     Headers =
                     {
-                        { "X-RapidAPI-Key", "7c0205edd7msh7624ab65fff1645p1fb571jsn1df7b3281529" },
+                        { "X-RapidAPI-Key", "[api-key]" },
                         { "X-RapidAPI-Host", "imdb-top-100-movies.p.rapidapi.com" },
                     },
                 };
@@ -58,7 +58,7 @@ namespace Presentation.Models.Concrete
                     RequestUri = new Uri("https://imdb-top-100-movies.p.rapidapi.com/"),
                     Headers =
                 {
-                    { "X-RapidAPI-Key", "7c0205edd7msh7624ab65fff1645p1fb571jsn1df7b3281529" },
+                    { "X-RapidAPI-Key", "[api-key]" },
                     { "X-RapidAPI-Host", "imdb-top-100-movies.p.rapidapi.com" },
                 },
                 };
@@ -83,7 +83,7 @@ namespace Presentation.Models.Concrete
                 RequestUri = new Uri("https://imdb-top-100-movies.p.rapidapi.com/"),
                 Headers =
                 {
-                    { "X-RapidAPI-Key", "7c0205edd7msh7624ab65fff1645p1fb571jsn1df7b3281529" },
+                    { "X-RapidAPI-Key", "[api-key]" },
                     { "X-RapidAPI-Host", "imdb-top-100-movies.p.rapidapi.com" },
                 },
             };
