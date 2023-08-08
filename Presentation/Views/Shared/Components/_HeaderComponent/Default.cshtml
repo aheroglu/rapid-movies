@@ -1,0 +1,28 @@
+﻿<header class="header header--static">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="header__content" style="display: flex; justify-content: space-between; align-items: center;">
+					<button class="header__menu" type="button">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+
+					<a href="/Home" class="header__logo" style="display: block; padding: 0;">
+						<span style="display: block; color:#0056b3; font-size: 0.9em; font-weight: bold; margin: 0; padding: 0;">Api Consume</span>
+						<h1 style="display: block; color: #fff; margin: 0; padding: 0;">Rapid Movie</h1>
+					</a>
+
+					<ul class="header__nav">
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="/Home">Home</a>
+						</li>
+
+						@await Component.InvokeAsync("_GenresComponent")
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
